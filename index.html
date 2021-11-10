@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <title>Valentin proyecto</title>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="#">Bike Store</a></li>
+            <li class="item"><a href="/pages/cuadros.html">Cuadros</a></li>
+            <li class="item"><a href="pages/bicicletas.html">Bicis armadas</a></li>
+            <li class="item"><a href="pages/accesorios.html">Accesorios</a></li>
+            </li>
+            <li class="item button"><a href="#">Log In</a></li>
+            <li class="item button secondary"><a href="#">Carrito</a></li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav>
+</head>
+<!--bootstrap carousel-->
+
+<body>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="/Imagenes/carrusel1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Acompañandote en tus sueños</h5>
+                    <p>Apasionados del mundo del ciclismo</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="Imagenes/carrusel2.jfif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/Imagenes/carrusel3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--cards-->
+    <div class="container">
+        <div class="card">
+            <img src="/Imagenes/accesorio1.jpg">
+            <h4>Accesorios</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="/pages/accesorios.html">Ver mas</a>
+        </div>
+        <div class="card">
+            <img src="/Imagenes/cuadrobmx.jpg">
+            <h4>Cuadros</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="/pages/cuadros.html">Ver mas</a>
+        </div>
+        <div class="card">
+            <img src="/Imagenes/biciaramda8.jpg">
+            <h4>Bicicletas</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="pages/bicicletas.html">Ver mas</a>
+        </div>
+    </div>
+</body>
+
+</html>
